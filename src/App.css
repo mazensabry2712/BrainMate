@@ -1,0 +1,55 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+:root {
+  --primary-color: #219F94;
+  --heading-color: #132742;
+  --box__shadow:#63938f;
+  --bg-gradient: linear-gradient(
+    90deg,
+    #219F94 27%,
+    #163835 85%
+  );
+  --font-name: "Questrial", sans-serif;
+
+
+  
+}
+/* ============reset default browser styles============   */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-name);
+  margin-top: 20px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 50px;
+}
+a {
+  text-decoration: none;
+
+  color: unset;
+}
+a:hover {
+  color: unset;
+}
+ul {
+  list-style: none;
+}
+/* ================== reusable class ==================  */
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: auto;
+}
+.section__title {
+  color: var(--heading-color);
+  font-weight: 700;
+}
